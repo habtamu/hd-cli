@@ -31,5 +31,25 @@ pnpm add -D typescript @types/node
 
 ## run the command in global
 ```
+pnpm add commander  
+
+```
+
+- Example 1
+```bash
+hd-cli --help
+Usage: hd-cli [options] <string>
+
+Arguments:
+  string      string to log
+
+Options:
+  -h, --help  display help for command
+```
+
+- Example 2
+```bash
+hd-cli git:(main) ✗ hd-cli world 
+Hello world
 
 ```
