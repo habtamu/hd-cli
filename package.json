@@ -1,0 +1,19 @@
+{
+  "name": "hd-cli",
+  "bin": {
+    "hd-cli": "./dist/index.js"
+  },
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "link-cli": "yarn --global unlink hd-cli  && yarn --global link hd-cli && chmod +x ./dist/index.js",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.0"
+  }
+}
